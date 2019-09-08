@@ -20,11 +20,11 @@ public void SetData(){
 	
 
 	@Test(dataProvider ="fetchData")
-	public void runTC002(String fName, String cName, String lName) {
+	public void runTC002(String username,String password,String fName, String cName, String lName) {
 		
 		new LoginPage()
-		.enterUserName("DemoSalesManager")
-		.enterPassword("crmsfa")
+		.enterUserName(username)
+		.enterPassword(password)
 		.clickLogin()
 		.clickCRMSFA()
 		.clickLeads()

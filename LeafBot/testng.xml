@@ -3,8 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test" verbose ="5">
     <classes>
+      
+      
       <class name="com.leafBot.testcases.TC002_CreateLead"/>
-      <class name="com.leafBot.testcases.TC001_LoginLogout"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
